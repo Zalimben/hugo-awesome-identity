@@ -12,6 +12,11 @@
   padding-bottom: 18px;
   border: 0;
   border-top: 1px solid #eee;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 
   @media only screen and (min-width: 1024px) {
     width: 1024px;
