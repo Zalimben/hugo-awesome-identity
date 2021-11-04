@@ -10,8 +10,13 @@
 }
 
 .share-blog {
-    float: right;
+    display: flex;
 }
+
+.share-buttons {
+    margin-left: auto;
+}
+
 
 /* Vertical Align LinkedIn button */
 .IN-widget {

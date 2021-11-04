@@ -72,9 +72,11 @@ body .markdown-body
   position: relative;
   vertical-align: baseline;
 }
+
 .markdown-body sup {
   top: -0.5em;
 }
+
 .markdown-body sub {
   bottom: -0.25em;
 }
@@ -249,30 +251,6 @@ body .markdown-body
   line-height: 1.1;
 }
 
-.markdown-body h1 {
-  font-size: 30px;
-}
-
-.markdown-body h2 {
-  font-size: 21px;
-}
-
-.markdown-body h3 {
-  font-size: 16px;
-}
-
-.markdown-body h4 {
-  font-size: 14px;
-}
-
-.markdown-body h5 {
-  font-size: 12px;
-}
-
-.markdown-body h6 {
-  font-size: 11px;
-}
-
 .markdown-body blockquote {
   margin: 0;
 }
@@ -409,6 +387,7 @@ body .markdown-body
 .markdown-body h6 {
   font-size: 1em;
   color: #777;
+  font-weight: unset;
 }
 
 .markdown-body p,
@@ -1021,4 +1000,9 @@ body .markdown-body
   .markdown-body h3 {
     page-break-after: avoid;
   }
+
+  .markdown-body h6 {
+    page-break-after: avoid;
+  }
+
 }
