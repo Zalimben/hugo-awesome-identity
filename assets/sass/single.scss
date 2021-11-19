@@ -5,12 +5,37 @@
 
 .cover-image {
     width: 100%;
-    height: 250px;
     border-radius: 15px;
+    overflow: hidden;
 }
 
+@media only screen and (max-width: 720px) {
+  .cover-image {
+    height: 5rem;
+  }
+}
+
+@media only screen and (min-width: 721px) {
+  .cover-image {
+    height: 16rem;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .cover-image {
+    height: 21rem;
+  }
+}
+
+
+.cover-image img {
+    width: 100%;
+    transform: translateY(-25%);
+}
+
+
 .post-title {
-    margin-top: 0;
+    margin-top: 0.5rem;
 }
 
 .post-author {
