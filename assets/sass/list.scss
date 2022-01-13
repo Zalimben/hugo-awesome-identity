@@ -1,0 +1,44 @@
+#post-information {
+    padding-left: 1rem;
+}
+
+#post-description {
+    color: #616161;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+.list-posts {
+    list-style-type: none;
+    padding: 0;
+
+    a li:hover {
+        background-color: #b6262c;
+        color: white;
+        text-decoration: none;
+
+        #post-description {
+            color: white;
+        }
+    }
+
+}
+
+.list-posts li {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+li h3 {
+    margin: 0
+}
+
+li img {
+    width: 7rem;
+    height: 4rem;
+}
+

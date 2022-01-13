@@ -1,0 +1,69 @@
+
+.cover-image-wrapper {
+    box-sizing: border-box;
+}
+
+.cover-image {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 720px) {
+  .cover-image {
+    height: 5rem;
+  }
+}
+
+@media only screen and (min-width: 721px) {
+  .cover-image {
+    height: 16rem;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .cover-image {
+    height: 21rem;
+  }
+}
+
+
+.cover-image img {
+    width: 100%;
+    transform: translateY(-25%);
+}
+
+
+.post-title {
+    margin-top: 0.5rem;
+}
+
+.post-author {
+    color: gray;
+    margin: 0;
+}
+
+.share-blog {
+    display: flex;
+}
+
+.share-buttons {
+    margin-left: auto;
+    display: flex;
+}
+
+.bmc-button {
+    width: auto;
+    height: 17px;
+    background-color: #5F7FFF;
+    border-radius: 25px;
+    padding: 2px 10px;
+    margin-bottom: 1px;
+    color: lightyellow;
+}
+
+
+/* Vertical Align LinkedIn button */
+.IN-widget {
+    vertical-align: top !important; 
+}
